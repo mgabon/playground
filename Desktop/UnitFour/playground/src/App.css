@@ -1,21 +1,36 @@
-.App {
-  text-align: center;
-}
 
-.top {
-  background-color: rgb(0, 0, 0);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
   color: white;
 }
 
-.about {
+body {
+  text-align: center;
+  background-color: black;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  justify-content: space-around;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Vigo', sans-serif;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.profile-greeting {
+  margin-top: 10rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 8rem;
 }
